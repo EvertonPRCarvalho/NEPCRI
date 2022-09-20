@@ -1464,10 +1464,10 @@ input, select, textarea {
 		}
 
 		header.style1 p {
-			color: #b1b4b9;
+			color: #262627;
 			display: block;
 			margin: 1.15em 0 0 0;
-			font-size: 1.3em;
+			font-size: 1.5em;
 			letter-spacing: 0.075em;
 			line-height: 1.5em;
 		}
@@ -2099,7 +2099,7 @@ input, select, textarea {
 
 		#logo p {
 			color: #eee;
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(255, 255, 255);
 			text-transform: uppercase;
 			margin: 1.25em 0 0 0;
 			display: block;
@@ -2138,10 +2138,10 @@ input, select, textarea {
 				#nav > ul > li > a, #nav > ul > li > span {
 					display: block;
 					color: #eee;
-					color: rgba(255, 255, 255, 0.75);
+					color: rgba(255, 255, 255);
 					text-transform: uppercase;
 					text-decoration: none;
-					font-size: 0.7em;
+					font-size: 0.9em;
 					letter-spacing: 0.25em;
 					height: 5em;
 					line-height: 5em;
@@ -2355,6 +2355,7 @@ input, select, textarea {
 
 			#footer header.style1 .p {
 				color: inherit;
+				
 			}
 
 		#footer .feature-list {

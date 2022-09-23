@@ -2291,7 +2291,7 @@ input, select, textarea {
 		background: #000000 url("images/overlay.png");
 		color: #eee;
 		color: rgba(255, 255, 255);
-		padding-bottom: 6em;
+		padding-bottom: 0.1em;
 	}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b, #footer a {
@@ -2393,9 +2393,7 @@ input, select, textarea {
 
 	#copyright {
 		text-align: center;
-		padding-top: 6em;
-		margin-top: 6em;
-		border-top: solid 1px rgb(255, 255, 255);
+		padding-top: 1em;
 	}
 
 		#copyright ul {

@@ -1453,7 +1453,6 @@ input, select, textarea {
 
 	header.style1 {
 		text-align: center;
-		padding: 3em 0 3em 0;
 	}
 
 		header.style1 h2 {
@@ -2390,8 +2389,8 @@ input, select, textarea {
 		}
 
 		#footer header.style1 {
-			padding-bottom: 6em;
-			margin-bottom: 6em;
+			padding-bottom: 0.5em;
+			margin-bottom: 1em;
 			border-bottom: solid 1px rgba(255, 255, 255, 0.05);
 		}
 
@@ -2434,8 +2433,8 @@ input, select, textarea {
 		}
 			.icon-footer i{
 				justify-content: center;
-				margin: 1.3em 0.3em ;
-				font-size: 3em;				
+				margin: 2em 0.3em ;
+				font-size: 2.5em;				
 			}
 /* Copyright */
 

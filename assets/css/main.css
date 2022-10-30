@@ -1457,7 +1457,7 @@ input, select, textarea {
 
 		header.style1 h2 {
 			font-weight: 700;
-			font-size: 2em;
+			font-size: 1.5em;
 			letter-spacing: 0.075em;
 			line-height: 1.5em;
 		}
@@ -1466,7 +1466,7 @@ input, select, textarea {
 			color: rgba(255, 255, 255, 0.863);
 			display: block;
 			margin: 1.15em 0 0 0;
-			font-size: 1.5em;
+			font-size: 1em;
 			letter-spacing: 0.075em;
 			line-height: 1.5em;
 		}
@@ -2154,10 +2154,10 @@ input, select, textarea {
 					color: rgba(255, 255, 255);
 					text-transform: uppercase;
 					text-decoration: none;
-					font-size: 1.2em;
+					font-size: 1em;
 					letter-spacing: 0.25em;
-					height: 5em;
-					line-height: 5em;
+					height: 3em;
+					line-height: 3em;
 					-moz-transition: all .25s ease-in-out;
 					-webkit-transition: all .25s ease-in-out;
 					-o-transition: all .25s ease-in-out;
@@ -2306,18 +2306,19 @@ input, select, textarea {
 		color: rgba(0, 0, 0, 0.9);
 		display: block;
 		margin: 1.15em 0 0 0;
-		font-size: 1.5em;
+		font-size: 1.1em;
 		letter-spacing: 0.075em;
 		line-height: 1.5em;
 		}
 /* Footer */
 
 	#footer {
-		background: #000000 url("images/overlay.png");
+		background: #000000;
 		color: #eee;
 		color: rgba(255, 255, 255);
-		padding-bottom: 0.1em;
+		padding-top: 1em;
 		display: flex;
+		text-align: center;
 	}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b, #footer a {
@@ -2390,7 +2391,9 @@ input, select, textarea {
 
 		#footer header.style1 {
 			padding-bottom: 0.5em;
+			margin-left: 15%;
 			margin-bottom: 1em;
+			width: 70%;
 			border-bottom: solid 1px rgba(255, 255, 255, 0.05);
 		}
 
@@ -2433,24 +2436,22 @@ input, select, textarea {
 		}
 			.icon-footer i{
 				justify-content: center;
-				margin: 2em 0.3em ;
-				font-size: 2.5em;				
+				margin: 1em 0.3em ;
+				font-size: 1.5em;				
 			}
 /* Copyright */
 
 	#copyright {
 		text-align: center;
-		padding-top: 2em;
 	}
 
 		#copyright ul {
 			display: inline-block;
-			border-radius: 0.35em;
-			box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255);
+			
 			color: #aaa;
 			color: rgba(255, 255, 255);
-			padding: 0.75em 2em;
-			font-size: 0.9em;
+			padding: 0.5em 1.5em;
+			font-size: 0.8em;
 		}
 
 			#copyright ul li {
@@ -2522,7 +2523,7 @@ input, select, textarea {
 			}
 
 				#intro p.style1 {
-					font-size: 1.25em;
+					font-size: 1em;
 				}
 
 				#intro p.style2 {
